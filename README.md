@@ -9,7 +9,7 @@ This project serves as a personal landing page where users can quickly access my
 ## 📸 Screenshots
 
 ## Desktop View
-![Link-in-Bio Desktop View](C:\Users\ADMIN\Pictures\Screenshots\Screenshot 2025-12-17 221609)
+![Link-in-Bio Desktop View](src/Screenshot%202025-12-17%20221609.png)
 
 ## 📌 Features
 - Clean, minimal layout
