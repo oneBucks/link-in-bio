@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-image: url("src/IMG_0737.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .Profile-Container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 40px 0 0;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: black;
+            width: 90vw;
+        }
+
+        .Profile-Row {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+
+        .Profile-Element {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 40px;
+        }
+
+        .Profile-Element img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            padding: 4px;
+            border: solid black;
+        }
+
+        .Profile-Media {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            gap: 20px;
+            margin-right: 40px;
+        }
+
+        .Profile-Media img {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            transition: transform 0.2s ease;
+        }
+
+        .Profile-Media img:hover {
+            transform: scale(1.15);
+        }
+
+        .hr-bottom{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Profile-Container">
+        <h1>Rostyslav Harasymiak</h1>
+        <hr>
+        <div class="Profile-Row">
+            <div class="Profile-Element">
+                <img src="src/photo_2025-12-13_19-11-40.jpg" alt="profile photo">
+            </div>
+            <div class="Profile-Media">
+                <a href="https://www.linkedin.com/in/rostyslav-harasymiak-66ba42265/"><img
+                        src="src/icons8-linkedin-100.png"></a>
+                <a href="https://www.facebook.com/rostyslav.harasymiak"><img src="src/facebook.svg"></a>
+                <a href="https://github.com/oneBucks"><img src="src/icons8-github-120.png"></a>
+            </div>
+        </div>
+        <hr class="hr-bottom">
+    </div>
+</body>
+
+</html>
